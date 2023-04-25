@@ -1,0 +1,91 @@
+
+   
+    
+     <div class="horizontalMenucontainer">
+      <!---Global-loader--> 
+      <div id="global-loader" style="display: none;"> <img src="css/loader.svg" alt="loader"> </div>
+      <div class="page">
+         <div class="page-main">
+            <!-- app-content start--> 
+            <div class="app-content main-content custom-data">
+               <div class="side-app">
+                  <div class="container main-container">
+                     <!--Page header--> 
+                     <div class="page-header">
+                        <div class="col-md-9">
+                           <h4 class="page-title">Welcome To Growmax.</h4>
+                           <div class="page-rightheader ms-auto d-lg-flex d-none">
+                           <ol class="breadcrumb">
+                              <li class="breadcrumb-item">
+                                    <span class="breadcrumb-icon"> Choose Your Package To Continue Growmax Journey</span>   
+                              </li>
+                           </ol>
+                        </div><br>
+                        </div>
+                        <div class="col-md-3">
+                           <a (click)="connectToMetamask()" *ngIf="metamaskConnected == false" class="btn btn-lg btn-danger mt-4">Connect Wallet</a> 
+                        </div>
+                     </div>
+                     <!--End Page header--> <!-- Row --> 
+                     <div class="row text-center no-gutters mb-7">
+                        <div class="col-lg-3">
+                           <div class="card plan-card shadow-none">
+                              <div class="card-block">
+                                 <div class="pt-4 pb-4">
+                                    <h1><i class="fa fa-plane plan-icon bg-primary"></i></h1>
+                                    <h6 class="text-uppercase font-weight-semibold text-primary">SILVER</h6>
+                                 </div>
+                                 <div class="plan-features pb-4 mt-4 text-muted padding-t-b-30" *ngFor="let s of silver; let i=index">
+                                    <a (click)="makePayment(s.price, s.name)" class="btn btn-lg btn-primary mt-4" title="Click to Buy">${{s.price}}</a> 
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-3">
+                           <div class="card plan-card border active">
+                              <div class="card-block">
+                                 <div class="pt-4 pb-4">
+                                    <h1><i class="fa fa-trophy plan-icon bg-info"></i></h1>
+                                    <h6 class="text-uppercase font-weight-semibold text-info">GOLD</h6>
+                                 </div>
+                                 <div class="plan-features pb-4 mt-4 text-muted padding-t-b-30" *ngFor="let g of gold; let i=index">
+                                    <a (click)="makePayment(g.price, g.name)" class="btn btn-lg btn-info mt-4" tooltips tooltip-template="tooltip">${{g.price}}</a> 
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-3">
+                           <div class="card plan-card border active">
+                              <div class="card-block">
+                                 <div class="pt-4 pb-4">
+                                    <h1><i class="fa fa-umbrella plan-icon bg-secondary"></i></h1>
+                                    <h6 class="text-uppercase font-weight-semibold text-secondary">DAIMOND</h6>
+                                 </div>
+                                 <div class="plan-features pb-4 mt-4 text-muted padding-t-b-30" *ngFor="let d of daimond; let i=index">
+                                    <a (click)="makePayment(d.price, d.name)" class="btn btn-lg btn-secondary mt-4" tooltip="Click to Buy">${{d.price}}</a> 
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-3">
+                           <div class="card plan-card shadow-none">
+                              <div class="card-block">
+                                 <div class="pt-4 pb-4">
+                                    <h1><i class="fa fa-umbrella plan-icon bg-warning"></i></h1>
+                                    <h6 class="text-uppercase font-weight-semibold text-warning">PLATINUM</h6>
+                                 </div>
+                                 <div class="plan-features pb-4 mt-4 text-muted padding-t-b-30" *ngFor="let p of platinum; let i=index">
+                                    <a (click)="makePayment(p.price, p.name)" class="btn btn-lg btn-warning mt-4" tooltip="Click to Buy">${{p.price}}</a> 
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- End Row --> 
+                  </div>
+               </div>
+            </div>
+            <!-- end app-content--> 
+         </div>
+         <!--Footer--> 
+   </div>

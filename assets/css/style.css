@@ -9,11 +9,6 @@
 /*black variables*/
 /* dark variales */
 /**
-* Dashtic v9.0 (https://themeforest.net/user/sprukotechnologies)
-* Copyright 2021 Spruko Technologies Private Limited
-* Licensed under ThemeForest License
-*
-
 //---------- TABLE OF CONTENTS ----------//
 	* Bootstrap Framework
 	* Tables
@@ -50388,4 +50383,13 @@ body.dark-mode.body-style1 footer.footer {
         justify-content: start;
     }
 }
+.error{
+	color: red;
+}
+
+.m-error{
+    margin-top: -2%;
+    margin-bottom: 2%;
+}
+
 /*# sourceMappingURL=style.css.map */

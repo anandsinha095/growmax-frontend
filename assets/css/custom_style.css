@@ -1,0 +1,90 @@
+
+body{font-family: 'Poppins';color:#495057;}
+		.auth-form {
+    padding: 30px 35px 30px;
+}
+h4{font-family: 'Poppins'}
+.font_poppy{font-family: 'Poppins'}
+.auth-form.card{border: 0;
+
+    border-radius: 5px;
+    box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03);
+    background: #fff;
+	}
+	.input-group input::placeholder{color:#495057;}
+	.auth-form .reg_style{color:#915aff!important;}
+	.sign_in_style{font-size: 16px;
+    margin-bottom: 0;
+    color: #495057;
+    font-weight: 600;}
+.info-password {border:1px solid #eff0f6;border-radius:8px;padding: 10px 10px 10px 10px;}
+ .info-password ul{ margin-bottom: 0;}
+.info-password .password_list li i{
+color:#cb6ce6;font-size:14px;margin-right:6px;
+}
+.info-password .password_list li{
+color:#495057;font-size:14px;margin-top:5px;
+}
+.pwd_grp.pwd_input{position:relative;}
+
+.pwd_grp #togglePassword{z-index:999999;position:absolute; top:20px;right: 15px;display: block}
+.pwd_grp #togglePassword{z-index:999999;position:absolute;  top:20px;  right: 15px;display: block}
+.intl-tel-input,
+.iti{
+  width: 100%;
+}
+
+
+.price-content h5{font-size:24px;margin-top:8px;}
+.welcome .card-body img {
+    border: 4px solid #fff;
+    border-radius: 100px;
+    width: 60px;
+}
+.welcome .card-body h4 {
+   font-size:16px;
+}
+.welcome .card-body ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid hsla(0,0%,100%,.15);
+}
+.welcome .card-body ul li a{
+   color:#fff;font-size:12px;
+}
+.chart_sec .card-header h3{font-family:Poppins;
+}
+.table-responsive td i{color:#E26EDB;}
+.theme_color{color:#915aff!important}
+.bg_gradient_btn{background: rgb(226,110,219);}
+.custom_card{position:relative;}
+.custom_card::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/media-65.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    opacity: .1;
+}
+.text-gradient{color:#e26edb;}
+.bg_gradient_btn{background: linear-gradient(37deg, rgba(226,110,219,1) 29%, rgba(252,96,175,1) 94%);color:#fff;}
+.bg_gradient_btn:hover{background: rgb(203,108,230);
+background: linear-gradient(37deg, rgba(203,108,230,1) 29%, rgba(140,82,255,1) 94%);color:#fff;}
+
+.bg_gradient_1{
+background: rgb(226,110,219);
+background: linear-gradient(37deg, rgba(226,110,219,1) 29%, rgb(169 100 254) 94%);color:#fff;
+}
+
+.bg_gradient_2{background: rgb(153,87,255);
+background: linear-gradient(37deg, rgba(153,87,255,1) 29%, rgb(226 110 219) 94%);color:#fff;}
+.bg_gradient_3{background: rgb(244,135,100);
+background: linear-gradient(37deg, rgba(244,135,100,1) 29%, rgba(253,161,64,1) 94%);color:#fff;}
+
+.bg_gradient{background: rgb(140,82,255);
+background: linear-gradient(37deg, rgba(140,82,255,1) 29%, rgba(203,108,230,1) 95%);color:#fff;}
+.bg_gradient:hover{background: rgb(203,108,230);
+background: linear-gradient(37deg, rgba(203,108,230,1) 29%, rgba(140,82,255,1) 94%);color:#fff;}

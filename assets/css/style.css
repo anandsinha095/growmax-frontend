@@ -63,7 +63,7 @@
 	* Back to Top
 */
 :root {
-    --primary-bg-color: #4454c3;
+    --primary-bg-color: #8c52ff;
     --primary-bg-hover: #3d4bb7;
     --primary-bg-border: #3d4bb7;
     --dark-theme: #10163a;
@@ -33991,8 +33991,9 @@ slide is-expanded side-menu__item {
 }
 
 .slide {
-    margin: 0;
+   margin: 16px 1px;
 }
+
 
 .side-menu .slide.active .side-menu__item {
     background-color: transparent;
@@ -50390,6 +50391,26 @@ body.dark-mode.body-style1 footer.footer {
 .m-error{
     margin-top: -2%;
     margin-bottom: 2%;
+}
+
+.pwd_eye{
+    z-index: 999999;
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    display: block;
+}
+
+.country_select{
+    z-index: 999999;
+    position: absolute;
+    top: 2px;
+    height: 34px;
+    width: 48px;
+}
+
+.select_color{
+    color: #a4aeb6 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

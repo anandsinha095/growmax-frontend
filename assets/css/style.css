@@ -50428,4 +50428,10 @@ body.dark-mode.body-style1 footer.footer {
 .h-95{
     height: 95%;
 }
+
+.list-custom{
+    color: #111010;
+    font-weight: 600;
+    font-size: 16px;
+}
 /*# sourceMappingURL=style.css.map */

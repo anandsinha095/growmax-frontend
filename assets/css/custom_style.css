@@ -46,6 +46,7 @@ color:#495057;font-size:14px;margin-top:5px;
 }
 .welcome .card-body ul li {
     padding: 10px 0;
+    font-size: 12px;
     border-bottom: 1px solid hsla(0,0%,100%,.15);
 }
 .welcome .card-body ul li a{
@@ -76,13 +77,21 @@ background: linear-gradient(37deg, rgba(203,108,230,1) 29%, rgba(140,82,255,1) 9
 
 .bg_gradient_1{
 background: rgb(226,110,219);
-background: linear-gradient(37deg, rgba(226,110,219,1) 29%, rgb(169 100 254) 94%);color:#fff;
+background: linear-gradient(37deg, rgb(229 71 219) 29%, rgb(106 58 164) 94%);color:#fff;
 }
 
 .bg_gradient_2{background: rgb(153,87,255);
-background: linear-gradient(37deg, rgba(153,87,255,1) 29%, rgb(226 110 219) 94%);color:#fff;}
+background: linear-gradient(37deg, rgb(117 54 214) 29%, rgb(196 34 186) 94%);color:#fff;}
 .bg_gradient_3{background: rgb(244,135,100);
-background: linear-gradient(37deg, rgba(244,135,100,1) 29%, rgba(253,161,64,1) 94%);color:#fff;}
+background: linear-gradient(37deg, rgb(250 108 63) 29%, rgb(223 134 41) 94%);color:#fff;}
+
+.bg_gradient_4{background: rgb(244,135,100);
+    background: linear-gradient(37deg, rgb(228 72 22) 29%, rgba(253,161,64,1) 94%);color:#fff;}
+.bg_gradient_5{background: rgb(244,135,100);
+        background: linear-gradient(37deg, rgb(41 39 38) 29%, rgb(72 62 52) 94%);color:#fff;}
+    
+.bg_gradient_6{background: rgb(244,135,100);
+            background: linear-gradient(37deg, rgb(56 143 13) 29%, rgb(45 225 8) 94%);color:#fff;}
 
 .bg_gradient{background: rgb(140,82,255);
 background: linear-gradient(37deg, rgba(140,82,255,1) 29%, rgba(203,108,230,1) 95%);color:#fff;}

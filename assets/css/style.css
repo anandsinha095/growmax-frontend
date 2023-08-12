@@ -2465,7 +2465,7 @@ hr.message-inner-separator {
     position: relative;
     text-align: center;
     display: inline-block;
-    background: var(--primary-bg-color) no-repeat center/cover;
+    /* background: var(--primary-bg-color) no-repeat center/cover; */
     color: #fff;
     font-weight: 600;
     vertical-align: bottom;
@@ -36128,7 +36128,7 @@ slide is-expanded side-menu__item {
     }
 
     .header .navsearch i {
-        font-size: 20px;
+        font-size: 46px;
         color: #424e79;
         padding-top: 4px;
     }
@@ -50413,4 +50413,19 @@ body.dark-mode.body-style1 footer.footer {
     color: #a4aeb6 !important;
 }
 
+.w-10{
+    width: 10px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.whte{
+    background: #fff;
+}
+
+.h-95{
+    height: 95%;
+}
 /*# sourceMappingURL=style.css.map */

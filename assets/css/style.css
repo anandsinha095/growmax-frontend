@@ -33991,7 +33991,7 @@ slide is-expanded side-menu__item {
 }
 
 .slide {
-   margin: 16px 1px;
+   margin: 10px 1px;
 }
 
 
@@ -50433,5 +50433,14 @@ body.dark-mode.body-style1 footer.footer {
     color: #111010;
     font-weight: 600;
     font-size: 16px;
+}
+
+.a-card{
+   position:relative; 
+    z-index:10;
+    color: #fff;
+}
+.a-card:hover{
+    color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

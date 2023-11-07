@@ -50443,4 +50443,18 @@ body.dark-mode.body-style1 footer.footer {
 .a-card:hover{
     color: #fff;
 }
+.payment-img{
+    border-radius: 8px;
+}
+.payment-card{
+   padding: 0px;
+}
+.payment-heading{
+    font-size: 18px;
+    margin: 4px;
+}
+.buy-button{
+    width: 100%;
+    font-size: 16px;
+}
 /*# sourceMappingURL=style.css.map */
